@@ -20,23 +20,6 @@ export const styles = StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 20,
   },
-  infoTextWrapper: {
-    marginVertical: 30,
-    alignItems: 'center',
-  },
-  langWrapper: {
-    marginTop: 30,
-    alignItems: 'center',
-  },
-  localeWrapper: {
-    marginTop: Platform.OS === 'android' ? 0 : -50,
-    marginBottom: 20,
-    alignItems: 'center',
-  },
-  helpWrapper: {
-    marginLeft: 30,
-    alignItems: 'center',
-  },
   container: {
     width: deviceWidth,
     height: deviceHeight,
@@ -48,3 +31,34 @@ export const styles = StyleSheet.create({
     height: deviceHeight,
   }
 });
+
+export const mapStyle = {
+  version: 8,
+  name: 'Land',
+  sources: {
+    map: {
+      type: 'raster',
+      tiles: ['https://a.tile.openstreetmap.org/{z}/{x}/{y}.png'],
+      tileSize: 256,
+      minzoom: 1,
+      maxzoom: 19,
+    },
+  },
+  layers: [
+    {
+      id: 'background',
+      type: 'background',
+      paint: {
+        'background-color': '#ffffff',
+      },
+    },
+    {
+      id: 'map',
+      type: 'raster',
+      source: 'map',
+      paint: {
+        'raster-fade-duration': 100
+      },
+    },
+  ],
+};
