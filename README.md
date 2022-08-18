@@ -4,9 +4,9 @@
   <br />
 </div>
 ---
-## 👋 Attribution
+## 👋 Intro
 
-This project was built upon the [React Boilerplate](https://github.com/react-boilerplate/react-boilerplate) by [Kerem Çubuk](https://twitter.com/mxstbr).
+This project was built upon the [React Boilerplate](https://github.com/react-boilerplate/react-boilerplate).
 
 ---
 
