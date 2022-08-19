@@ -36,7 +36,7 @@ npm run android # to run the Android application
 
 Start the server:
 ```command
-npm start
+yarn start
 ```
 
 ---
