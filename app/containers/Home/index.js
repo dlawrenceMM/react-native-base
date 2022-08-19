@@ -8,7 +8,7 @@ import React, { useEffect } from 'react';
 import { Text, View, SafeAreaView, StatusBar, ScrollView, Dimensions } from 'react-native';
 import { styles, mapStyle } from './styles';
 
-import MapboxGL from '@rnmapbox/maps';
+import MapboxGL from '@react-native-mapbox-gl/maps';
 
 MapboxGL.setAccessToken('sk.eyJ1IjoiYXBpLWFjdmIiLCJhIjoiY2w2eWNtZzlsMTF2MDNrcGc1MndyNzZqZyJ9.TT1O9-LuWgD-3G9US3Azmg');
 
