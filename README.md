@@ -12,6 +12,13 @@ This project was built upon the [React Boilerplate](https://github.com/react-boi
 
 ## 🚀 Getting Started
 
+<b>Node</b>:
+
+```command
+nvm use 16
+yarn
+```
+
 <b>IOS</b>:
 
 ```command
